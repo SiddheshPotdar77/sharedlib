@@ -12,5 +12,5 @@ def deploy(jobname,ip,context)
 }
 def runselenium(jobname)
 {
-	sh 'java -jar /var/lib/jenkins/workspace/${jobname}/testing.jar'
+	echo "sh 'java -jar /var/lib/jenkins/workspace/${jobname}/testing.jar'"
 }
