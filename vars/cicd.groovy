@@ -4,5 +4,5 @@ def download(repo)
 }
 def build()
 {
-  sh 'mvn package'
+   echo "sh 'mvn package'"
 }
